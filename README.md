@@ -10,10 +10,13 @@
 
 ### 如果你用Linux
    * 請先確認自己使用的發行版
+
 #### **你用Ubuntu的話：**
    * ```sudo apt-get install python3```
+
 #### **你用Arch Linux/Manjaro的話**
    * ```sudo pacman -S python3```
+
 #### 你是用Fedora的話
    * ```dnf install python3```
 
