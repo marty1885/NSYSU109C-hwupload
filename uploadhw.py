@@ -24,12 +24,15 @@ def openFile(filePath):
 		return False
 
 
-ftp = connectToFTP()
-
 #TODO : parse args instead of hard coding it
+if(len(sys.argv) != 4)
+	print("Error : Wrong amount of parameters")
+	exit()
 hwName = sys.argv[1]
 stuID = sys.argv[2]
 filePath = sys.argv[3]
+
+ftp = connectToFTP()
 
 ftp.cwd(hwName)
 
@@ -40,7 +43,7 @@ if uploadFile == False:
 
 uploadFileName = stuID + ".cpp"
 
-#ftp.retrlines('LIST') 
+#ftp.retrlines('LIST')
 
 currentDirFileList = ftp.nlst()
 index = 1
