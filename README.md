@@ -10,11 +10,11 @@
 
 #### 如果你用Linux
    * 請先確認自己使用的發行版
- ##### **你用Ubuntu的話：**
+##### **你用Ubuntu的話：**
    * ```sudo apt-get install python3```
- ##### **你用Arch Linux/Manjaro的話**
+##### **你用Arch Linux/Manjaro的話**
    * ```sudo pacman -S python3```
- ##### 你是用Fedora的話
+##### 你是用Fedora的話
    * ```dnf install python3```
 
 #### 如果你用Mac OS X
@@ -51,4 +51,4 @@ sudo python3 ./install.py
 
 ## 程式碼授權
 當然是GPLv3拉~~~
-請見LICSENCE
+請見LICSENCE檔案
