@@ -25,7 +25,7 @@ def openFile(filePath):
 
 
 #TODO : parse args instead of hard coding it
-if(len(sys.argv) != 4)
+if len(sys.argv) != 4 :
 	print("Error : Wrong amount of parameters")
 	exit()
 hwName = sys.argv[1]
